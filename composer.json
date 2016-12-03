@@ -1,0 +1,39 @@
+{
+	"name": "elemeno/elemeno",
+	"type": "library",
+	"description": "Elemeno CMS PHP API Wrapper",
+	"keywords": [
+		"elemeno",
+		"elemeno.io",
+		"elemenoio",
+		"content",
+		"management",
+		"cms",
+		"api"
+	],
+	"homepage": "https://github.com/elemenohq/elemeno-php",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dave Bobak",
+			"email": "dave@elemeno.io",
+			"homepage": "https://elemeno.io",
+			"role": "Developer"
+		},
+		{
+			"name": "Chris Erwin",
+			"email": "chris@elemeno.io",
+			"homepage": "https://elemeno.io",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"guzzlehttp/guzzle": "6.2.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Elemeno\\": "src/"
+		}
+	}
+}
